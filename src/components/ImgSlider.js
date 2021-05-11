@@ -16,11 +16,19 @@ function ImgSlider() {
     return (
         <Carousel {...settings}>
             <Wrap>
-                <img src="/images/slider-badging.jpg" alt="" />
+                <img src="/images/simpsons-slider.png" alt="The Simpsons" />
             </Wrap>
 
             <Wrap>
-                <img src="/images/slider-badag.jpg" alt="" />
+                <img src="/images/22.png" alt="22 vs Earth" />
+            </Wrap>
+
+            <Wrap>
+                <img src="/images/hsmtv.png" alt="High School Musical The Musical The Series" />
+            </Wrap>
+
+            <Wrap>
+                <img src="/images/wintersoldier.png" alt="Falcon and Winter Soldier" />
             </Wrap>
         </Carousel>
     )

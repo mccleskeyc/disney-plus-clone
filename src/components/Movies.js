@@ -37,6 +37,7 @@ const Content = styled.div `
     display: grid;
     grid-gap: 25px;
     grid-template-columns: repeat(4, minmax(0, 1fr));
+    
 `
 
 const Wrap = styled.div `
@@ -47,11 +48,15 @@ const Wrap = styled.div `
     rgb(0 0 0 / 73%) 0px 16px 10px -10px;
     transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
     cursor: pointer;
+
+    
     
     img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        
+        
     }
 
     &:hover {
