@@ -52,7 +52,7 @@ const Container = styled.div`
 `
 
 const Background = styled.div ` 
-        position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0; 
@@ -74,6 +74,7 @@ const Background = styled.div `
         left: 0;
         background-color: #0c1943;
         opacity: .5; 
+    }
 `
 
 const ImageTitle = styled.div ` 
@@ -150,4 +151,5 @@ const Description = styled.div `
     line-height: 1.4;
     font-size: 20px;
     margin-top: 16px;
+    max-width: 760px;
 `

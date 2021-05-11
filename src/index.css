@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.SignUp {
+  width: 100%;
+    background-color: #0063e5;
+    font-weight: bold;
+    padding: 17px 0;
+    color: #f9f9f9;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 250ms;
+    letter-spacing: 1.5px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.SignUp:hover {
+    background-color: #0483ee;
+}
+
+.SignUp:visited {
+  text-decoration: none;
+}
