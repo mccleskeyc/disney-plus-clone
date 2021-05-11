@@ -6,32 +6,32 @@ function Header() {
         <Nav>
             <Logo src="/images/logo.svg" alt="Disney+ Logo"/>
             <NavMenu>
-                <a>
+                <a href="/">
                     <img src="/images/home-icon.svg" alt="home" />
                     <span>HOME</span>
                 </a>
 
-                <a>
+                <a href="http://www.disneyplus.com/search">
                     <img src="/images/search-icon.svg" alt="home" />
                     <span>SEARCH</span>
                 </a>
 
-                <a>
+                <a href="http://www.disneyplus.com/watchlist">
                     <img src="/images/watchlist-icon.svg" alt="home" />
                     <span>WATCHLIST</span>
                 </a>
 
-                <a>
+                <a href="http://www.disneyplus.com/originals">
                     <img src="/images/original-icon.svg" alt="home" />
                     <span>ORIGINALS</span>
                 </a>
 
-                <a>
+                <a href="http://www.disneyplus.com/movies">
                     <img src="/images/movie-icon.svg" alt="home" />
                     <span>MOVIES</span>
                 </a>
 
-                <a>
+                <a href="http://www.disneyplus.com/series">
                     <img src="/images/series-icon.svg" alt="home" />
                     <span>SERIES</span>
                 </a>
@@ -65,7 +65,9 @@ const NavMenu = styled.div`
         display: flex; 
         align-items: center;
         padding: 0 12px;
-        cursor: pointer;
+        cursor: pointer; 
+        text-decoration: none;
+        color: white;
         img {
             height: 20px;
         }
@@ -73,6 +75,7 @@ const NavMenu = styled.div`
             font-size: 13px;
             letter-spacing: 1.42px;
             position: relative;
+            
             &:after {
                 content: "";
                 height: 2px;
@@ -85,6 +88,7 @@ const NavMenu = styled.div`
                 transform-origin: left center;
                 transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
                 transform: scaleX(0);
+                
             }
         }
         &:hover {
@@ -92,6 +96,10 @@ const NavMenu = styled.div`
                 transform: scaleX(1);
                 opacity: 1;
             }
+        &:after {
+            text-decoration: none;
+        color: white;
+        }
         }
     }
 `
