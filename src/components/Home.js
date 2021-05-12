@@ -19,7 +19,7 @@ function Home() {
                 setMovies(tempMovies)
             );
         })
-    }, [])
+    })
 
     return (
         <Container>
